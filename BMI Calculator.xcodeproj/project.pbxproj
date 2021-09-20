@@ -10,6 +10,12 @@
 		7420362C257106CE00DE107B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7420362B257106CE00DE107B /* ResultViewController.swift */; };
 		74203630257113C500DE107B /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7420362F257113C500DE107B /* CalculatorBrain.swift */; };
 		7420363325711CAD00DE107B /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7420363225711CAD00DE107B /* BMI.swift */; };
+		7496BA4326F87F79006F518B /* Screenshot04.png in Resources */ = {isa = PBXBuildFile; fileRef = 7496BA3D26F87F79006F518B /* Screenshot04.png */; };
+		7496BA4426F87F79006F518B /* Screenshot05.png in Resources */ = {isa = PBXBuildFile; fileRef = 7496BA3E26F87F79006F518B /* Screenshot05.png */; };
+		7496BA4526F87F79006F518B /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 7496BA3F26F87F79006F518B /* Screenshot02.png */; };
+		7496BA4626F87F79006F518B /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7496BA4026F87F79006F518B /* Screenshot01.png */; };
+		7496BA4726F87F79006F518B /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 7496BA4126F87F79006F518B /* Screenshot03.png */; };
+		7496BA4826F87F79006F518B /* Screenshot06.png in Resources */ = {isa = PBXBuildFile; fileRef = 7496BA4226F87F79006F518B /* Screenshot06.png */; };
 		AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F79230D61800065EFD9 /* AppDelegate.swift */; };
 		AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */; };
 		AD0B9F7E230D61800065EFD9 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F7D230D61800065EFD9 /* CalculateViewController.swift */; };
@@ -23,6 +29,12 @@
 		7420362B257106CE00DE107B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		7420362F257113C500DE107B /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalculatorBrain.swift; path = "BMI Calculator/Controllers/CalculatorBrain.swift"; sourceTree = SOURCE_ROOT; };
 		7420363225711CAD00DE107B /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BMI.swift; path = "BMI Calculator/Controllers/BMI.swift"; sourceTree = SOURCE_ROOT; };
+		7496BA3D26F87F79006F518B /* Screenshot04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot04.png; sourceTree = "<group>"; };
+		7496BA3E26F87F79006F518B /* Screenshot05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot05.png; sourceTree = "<group>"; };
+		7496BA3F26F87F79006F518B /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		7496BA4026F87F79006F518B /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		7496BA4126F87F79006F518B /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
+		7496BA4226F87F79006F518B /* Screenshot06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot06.png; sourceTree = "<group>"; };
 		AD0B9F76230D61800065EFD9 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0B9F79230D61800065EFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7496BA4926F87F7D006F518B /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				7496BA4026F87F79006F518B /* Screenshot01.png */,
+				7496BA3F26F87F79006F518B /* Screenshot02.png */,
+				7496BA4126F87F79006F518B /* Screenshot03.png */,
+				7496BA3D26F87F79006F518B /* Screenshot04.png */,
+				7496BA3E26F87F79006F518B /* Screenshot05.png */,
+				7496BA4226F87F79006F518B /* Screenshot06.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		AD0B9F6D230D61800065EFD9 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +98,7 @@
 				AD0B9F82230D61840065EFD9 /* Assets.xcassets */,
 				AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */,
 				AD0B9F87230D61840065EFD9 /* Info.plist */,
+				7496BA4926F87F7D006F518B /* Screenshots */,
 			);
 			path = "BMI Calculator";
 			sourceTree = "<group>";
@@ -163,7 +189,13 @@
 			files = (
 				AD0B9F86230D61840065EFD9 /* LaunchScreen.storyboard in Resources */,
 				AD0B9F83230D61840065EFD9 /* Assets.xcassets in Resources */,
+				7496BA4626F87F79006F518B /* Screenshot01.png in Resources */,
+				7496BA4826F87F79006F518B /* Screenshot06.png in Resources */,
+				7496BA4426F87F79006F518B /* Screenshot05.png in Resources */,
 				AD64359A2312D0BC00E22B00 /* README.md in Resources */,
+				7496BA4726F87F79006F518B /* Screenshot03.png in Resources */,
+				7496BA4526F87F79006F518B /* Screenshot02.png in Resources */,
+				7496BA4326F87F79006F518B /* Screenshot04.png in Resources */,
 				AD0B9F81230D61800065EFD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +357,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/my\\ first\\ real\\ app/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/my\\ first\\ real\\ app/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/my\\ first\\ real\\ app/Pods/GoogleSignIn/Frameworks",
+					"$(PROJECT_DIR)/my\\ first\\ real\\ app/Pods/GoogleAppMeasurement/Frameworks",
+				);
 				INFOPLIST_FILE = "BMI Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -342,6 +381,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/my\\ first\\ real\\ app/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/my\\ first\\ real\\ app/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/my\\ first\\ real\\ app/Pods/GoogleSignIn/Frameworks",
+					"$(PROJECT_DIR)/my\\ first\\ real\\ app/Pods/GoogleAppMeasurement/Frameworks",
+				);
 				INFOPLIST_FILE = "BMI Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
